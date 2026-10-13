@@ -1,0 +1,167 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #bde0e3;
+  margin: 20px;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #0066cc, #9b59b6, #e74c3c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.mi-marquesina {
+  background: linear-gradient(90deg, #0066cc, #9b59b6, #e74c3c);
+  padding: 8px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+
+.menu-botones {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.boton {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #162330;
+  color: rgb(140, 214, 20);
+  text-decoration: none;
+  margin: 2px;
+  border-radius: 4px;
+}
+
+.boton:hover {
+  background-color: #004499;
+}
+
+
+.contenedor-frame {
+  text-align: center;
+}
+
+iframe {
+  width: 90%;
+  height: 600px;
+  border: 1px solid #040303;
+  background-color: white;
+  border-radius: 50px;
+}
+
+
+.contenido {
+  padding: 10px;
+  
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+table, th, td {
+  border: 1px solid #777777;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #eeeeee;
+}
+
+
+.galeria {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.galeria img {
+  width: 50%;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid #999999;
+}
+
+.tabla-galeria {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  background: #18cc00;
+}
+
+.tabla-galeria td {
+  width: 33.33%;
+  text-align: center;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.tabla-galeria img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #999999;
+  display: block;
+}
+
+
+.formulario {
+  margin-top: 15px;
+}
+
+.formulario input {
+  padding: 5px;
+  margin: 5px 0;
+  background-color: rgb(50, 55, 205);
+  background: #00cc14;
+}
+
+.btn-saludo {
+  padding: 6px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#mensaje {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #0066cc;
+  white-space: pre-line;
+}
+video{
+  border: #32cf1d;
+  border-radius: 10px;
+}
+
+.parrafo-herramientas {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #777777;
+  border-left: 4px solid #0066cc;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 15px 0;
+  font-size: 0.95rem;
+  color: #333333;
+}
+
+.parrafo-herramientas strong {
+  color: #00cc14;
+}
